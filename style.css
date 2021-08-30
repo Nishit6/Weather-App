@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h4,h1,h6,h5,h3{
+    text-align: center;
+    color: white;
+    
+    
+}
+#heading{
+margin-bottom: 30px;
+margin-top: 10px;
+font-family: 'Kaisei HarunoUmi', serif;
+text-shadow: 2px 3px 3px rgb(179, 15, 15);
+}
+
+span{
+   text-shadow: 2px 3px 3px black;
+}
+
+#feelsLike{
+    text-shadow: 0px 0px 0px white;
+}
+form{
+    text-align: center;
+}
+
+body{
+    background-image: url("66\ \(2\).jpg");
+    background-size: 1400px;
+    
+    
+}
+
+#inp{
+    font-size: large;
+    width: 250px;
+    height: 30px;
+    border-radius: 0px 15px 0px 15px;
+    text-align: center;
+    border-color:white white red white ;
+    border-width: 0px 0px 3px 0px;
+    box-shadow: 0px 3px 3px gray;
+}
+#inp:focus{
+    background-color: lightgray;
+  
+}
+
+#divs{
+    color: white;
+    margin-top: 40px;
+    
+}
+
+.alert{
+    width: 650px;
+    margin: 40px auto;
+}
+
+@media all and (max-width : 260px) {
+    
+    #inp{
+        width: 200px;
+    }
+    #heading{
+        font-size: 20px;
+    }
+
+}
+
+
+@media all and (max-width : 940px) {
+    
+    .alert{
+        width: 500px;
+    }
+
+}
+
+@media all and (max-width : 700px) {
+    
+    .alert{
+        width: 400px;
+    }
+
+}
+
+@media all and (max-width : 530px) {
+    
+    .alert{
+        width: 300px;
+    }
+
+}
+
+@media all and (max-width : 370px) {
+    
+    .alert{
+        width: 200px;
+    }
+    #inp{
+            width: 250px ;
+    }
+
+}
+
+@media all and (max-width : 314px) {
+    
+  #btn{
+      margin-top: 20px;
+  }
+
+}
+
+@media all and (max-width : 250px) {
+    
+   #inp{
+       width: 190px;
+       
+   }
+  
+  }
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
