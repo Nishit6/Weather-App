@@ -7,6 +7,7 @@
 h4,h1,h6,h5,h3{
     text-align: center;
     color: white;
+   
     
     
 }
@@ -15,21 +16,24 @@ margin-bottom: 30px;
 margin-top: 10px;
 font-family: 'Kaisei HarunoUmi', serif;
 text-shadow: 2px 3px 3px rgb(179, 15, 15);
+
 }
 
 span{
    text-shadow: 2px 3px 3px black;
+   
 }
 
-#feelsLike{
-    text-shadow: 0px 0px 0px white;
-}
+
+
+
 form{
     text-align: center;
 }
 
 body{
-    background-image: url("66\ \(2\).jpg");
+  
+    background-image: url("./66\ \(2\).jpg");
     background-size: 1400px;
     
     
@@ -54,7 +58,12 @@ body{
     color: white;
     margin-top: 40px;
     
+  
 }
+
+
+
+
 
 .alert{
     width: 650px;
